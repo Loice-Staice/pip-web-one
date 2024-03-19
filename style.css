@@ -1,0 +1,64 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-image: url("photo.cosby/background.jpeg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+
+}
+#nav{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+    display: flex;
+    gap: 200px;
+}
+li{
+    display: inline-block;
+
+}
+li a{
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 17px;
+    
+
+}
+.crosby{
+    /* margin:auto; */
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 500px;
+}
+#icon{
+    /* gap: 50px; */
+    margin-right: 100px;
+    /* margin-right: %; */
+    /* display: flex; */
+}
+
+.images{
+    margin-left: 15px;
+}
+
+.story{
+    position: absolute ;
+    top: 30%;
+    padding-left: 600px;
+    color: beige;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#href{
+    margin-right: 30px;
+}
+#click{
+
+    border: solid;
+    padding: 20px;
+}
