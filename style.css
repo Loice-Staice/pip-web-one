@@ -38,10 +38,13 @@ li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 500px;
 }
-#icon{
+#iicon{
     /* gap: 50px; */
     margin-right: 100px;
-    /* margin-right: %; */
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
     /* display: flex; */
 }
 
@@ -171,8 +174,11 @@ li a{
         display: flex;
         background-color: darkgoldenrod;
         height: 20vh;
+        padding: 70px, 30px, 20px;
       
 }
+ 
+
 .website{
     word-spacing: 5px;
 }
