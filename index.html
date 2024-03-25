@@ -10,7 +10,9 @@
 
  </style>
     <title>Our Stor=y</title>
+  
 </head>
+
 <nav>
     <div id="main">
         <div id="nav">
@@ -32,26 +34,64 @@
             <i class="fa-brands fa-instagram" id="iicon"></i>
         </div>
     </div>
-    <div class="story">
-        <p>Plants and Pots<br>
-            For Your Home</p><br>
-         <button id="click">Shop Now</button>
-    </div>
-    
-    </div>
+   
     </div>
     </nav>
     <body>
+        <div>
+            <div class="story">
+                <p>Plants and Pots<br>For Your Home</p><br>
+                 <button id="click">Shop Now</button>
+            </div>
+        
+            </div>
+            <div class="onclickbutton">
+            <script>
+                function CROSBY () {
+                    alert('Welcome to Crosby Flower Collection');
+                }
+                 </script>
+                  <button class="button" onclick="CROSBY()">
+                    Welcome to CROSBY flower
+                </button>
+                </div>
     <div class="flowers1">
         <!-- <div> -->
         <!-- <h1><i>Fan Favorites</i></h1> -->
         <!-- </div> -->
-        <div>
-        <img src="photo.cosby/flower1.png">
+       <div class="flowersjs">
+        <img id="photo"  src="photo.cosby/flower1.png" alt="" onclick="changeImage()" width="400px" height="500px" >
+        <!-- <script to change image> -->
+            <script>
+                function changeImage(){
+                    let displayImage = document.getElementById('photo.cosby/flower1.png');
+                    if (displayImage.src.match('photo.cosby/flower1.png')){
+                        displayImage.src="photo.cosby/roseflower.jpg"
+                    }else{
+                        displayImage.src='photo.cosby/flower1.png'
+                    }
+                    }
+                
+            </script>
+
+        </script>
         <p class="font">Lil' Guys<br><button class="buy">Buy Now</button></p>
         </div>
         <div>
-            <img src="photo.cosby/flower2.png"> 
+            <img id="photo.cosby/flower2.png"  src="photo.cosby/flower2.png" alt="" onclick="clearImage()" width="400px" height="500px"> 
+            <!-- <script to change image> -->
+            <script>
+                function clearImage(){
+                    let popImage = document.getElementById('photo.cosby/flower2.png');
+                    if (popImage.src.match('photo.cosby/flower2.png')){
+                        popImage.src="photo.cosby/lilyvalley.jpg"
+                    }else{
+                        popImage.src='photo.cosby/flower2.png'
+                    }
+                    }
+                
+            </script>
+        </script>
             <p class="font">Bigger Statements<br><button class="buy">Buy Now</button></p> 
         </div>
         <div>
