@@ -66,10 +66,21 @@ li a{
 }
 .onclickbutton{
     position: absolute;
-    padding-left: 400px;
+    padding-left: 700px;
+    /* display: inline; */
+    text-decoration: none;
+    color: #fff;
+    /* border: 1px solid #fff; */
+    padding: 20px 34px;
+    font-size: 20px;
+    /* background: white; */
+    top: 55%;
+    left: 40%;
+
+    
 }
 .button{
-    height: 20px;
+    height: 50px;
 }
 .story{
     position: absolute ;
