@@ -60,7 +60,7 @@
         <!-- <h1><i>Fan Favorites</i></h1> -->
         <!-- </div> -->
        <div class="flowersjs">
-        <img id="photo"  src="photo.cosby/flower1.png" alt="" onclick="changeImage()" width="400px" height="500px" >
+        <img id="photo.cosby/flower1.png"  src="photo.cosby/flower1.png" alt="" onclick="changeImage()" width="400px" height="500px" >
         <!-- <script to change image> -->
             <script>
                 function changeImage(){
@@ -95,7 +95,20 @@
             <p class="font">Bigger Statements<br><button class="buy">Buy Now</button></p> 
         </div>
         <div>
-            <img src="photo.cosby/flower2.png"> 
+            <img id="photo.cosby/flower3.png"  src="photo.cosby/flower3.png" src="photo.cosby/flower3.png" alt="" onclick="thirdImage()" width="400px" height="500px"> 
+             <!-- <script to change image> -->
+                <script>
+                    function thirdImage(){
+                        let popImage = document.getElementById('photo.cosby/flower3.png');
+                        if (popImage.src.match('photo.cosby/flower3.png')){
+                            popImage.src="photo.cosby/redrose.jpg"
+                        }else{
+                            popImage.src='photo.cosby/flower3.png'
+                        }
+                        }
+                    
+                </script>
+            </script>
             <p class="font">Low Maintainance<br><button class="buy">Buy Now</button></p> 
         </div>
        
@@ -125,7 +138,7 @@
     <footer>
         <div class="footer">
          <div>
-            <h5><b>phone</b></h5>
+            <h5><b>Phone</b></h5>
                 <p>+254-71-445-7298</p><br>
              
             <h3>Address</h3>
