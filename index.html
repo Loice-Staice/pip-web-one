@@ -73,11 +73,11 @@
                     }
                 
             </script>
-
-        </script>
-        <p class="font">Lil' Guys<br><button class="buy">Buy Now</button></p>
+            <p class="font">Lil' Guys<br><button class="buy">Buy Now</button></p>
+    
+       
         </div>
-        <div>
+        <div >
             <img id="photo.cosby/flower2.png"  src="photo.cosby/flower2.png" alt="" onclick="clearImage()" width="400px" height="500px"> 
             <!-- <script to change image> -->
             <script>
@@ -91,30 +91,42 @@
                     }
                 
             </script>
-        </script>
-            <p class="font">Bigger Statements<br><button class="buy">Buy Now</button></p> 
-        </div>
-        <div>
-            <img id="photo.cosby/flower3.png"  src="photo.cosby/flower3.png" src="photo.cosby/flower3.png" alt="" onclick="thirdImage()" width="400px" height="500px"> 
-             <!-- <script to change image> -->
-                <script>
-                    function thirdImage(){
-                        let popImage = document.getElementById('photo.cosby/flower3.png');
-                        if (popImage.src.match('photo.cosby/flower3.png')){
-                            popImage.src="photo.cosby/redrose.jpg"
-                        }else{
-                            popImage.src='photo.cosby/flower3.png'
-                        }
-                        }
-                    
-                </script>
-            </script>
+       
             <p class="font">Low Maintainance<br><button class="buy">Buy Now</button></p> 
         </div>
+        <div>
+            <img id="photo.cosby/flower3.png"  src="photo.cosby/flower3.png" alt="" onclick="thirdImage()" width="400px" height="500px"> 
+            <!-- <script to change image> -->
+            <script>
+                function thirdImage(){
+                    let pipImage = document.getElementById('photo.cosby/flower3.png');
+                    if (pipImage.src.match('photo.cosby/flower3.png')){
+                        pipImage.src="photo.cosby/sunflower.jpg"
+                    }else{
+                        pipImage.src='photo.cosby/flower3.png'
+                    }
+                    }
+                
+            </script>
+       
+            <p class="font">Affordable Maintainance<br><button class="buy">Buy Now</button></p> 
+        </div>
+        
        
     </div>
-    <div id="backg">
-        <img src="photo.cosby/flowerba2.jpg"  height="500px" width="600" class="rose">
+    <div id="scrolls">
+        <div class="scroll" id="scroll-left"><span class="material-symbols-outlined">
+        </span></div>
+        <ul class="scroll2">
+            <li class="pic"><img src="photo.cosby/redrose.jpg" width="400px" height="500px"></li>
+            <li class="pic"><img src="photo.cosby/rose2.jpg" width="400px" height="500px"></li>
+            <li class="pic"><img src="photo.cosby/rose3.jpg" width="400px" height="500px"></li>
+            <li class="pic"><img src="photo.cosby/rose4.jpg" width="400px" height="500px"></li>
+            <li class="pic"><img src="photo.cosby/rose5.jpg" width="400px" height="500px"></li>
+            <li class="pic"><img src="photo.cosby/lilyvalley.jpg" width="400px" height="500px"></li>
+        </ul>
+        <div class="scroll" id="scroll-right"><span class="material-symbols-outlined">
+        </span></div>
     </div>
     <div class="gif">
         <div>
@@ -132,6 +144,7 @@
     <div  class="signup">
         <p font="20px">They grow up so fast.</p>
         <p>Don't miss a thing. Sign up to receive news and updates</p>
+        <br>
         <p class="signbut"> <input type="text" placeholder="Email Address" required="text"></p>
     </div>
 
