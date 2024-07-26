@@ -1,5 +1,6 @@
 var scrolls= document.getElementById("scrolls")
-var scrollleft= document.getElementById("scroll-left")
-var scrollright= document.getElementById("scroll-right")
-scrollleft.addEventListener("click",(Event)=>{scrolls.scrollBy(800,0);});
-scrollright.addEventListener("click",(Event)=>{scrolls.scrollBy(800,0);});
+var scrollup= document.getElementById("scroll-up")
+var scrolldown= document.getElementById("scroll-down")
+scrolltop.addEventListener("click",(Event)=>{scrolls.scrollBy(0,50);});
+scrollbottom.addEventListener("click",(Event)=>{scrolls.scrollBy(0,50);});
+
